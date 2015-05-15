@@ -1,0 +1,16 @@
+{
+	"frameAnims": [
+		{ "name": "WorldButton0",	"texture": "World0.png",			"offset": { "x": 0, "y": 0 },	"frameSize": { "width": 276, "height": 210 }, "numFramesTotal": 1, "numFramesPerRow": 1 },
+		{ "name": "WorldButton1",	"texture": "World1.png",			"offset": { "x": 0, "y": 0 },	"frameSize": { "width": 276, "height": 210 }, "numFramesTotal": 1, "numFramesPerRow": 1 },
+		{ "name": "WorldButton2",	"texture": "World2.png",			"offset": { "x": 0, "y": 0 },	"frameSize": { "width": 276, "height": 210 }, "numFramesTotal": 1, "numFramesPerRow": 1 },
+		{ "name": "WorldButton3",	"texture": "World3.png",			"offset": { "x": 0, "y": 0 },	"frameSize": { "width": 276, "height": 210 }, "numFramesTotal": 1, "numFramesPerRow": 1 },
+		{ "name": "WorldButton4",	"texture": "World4.png",			"offset": { "x": 0, "y": 0 },	"frameSize": { "width": 276, "height": 210 }, "numFramesTotal": 1, "numFramesPerRow": 1 },
+		{ "name": "LevelButton",	"texture": "LevelSelection.png",	"offset": { "x": 0, "y": 0 },	"frameSize": { "width": 76, "height": 76 }, "numFramesTotal": 6, "numFramesPerRow": 6 }
+	],
+	"textures": [
+		"BackgroundLevels.png",
+		"WorldLock.png",
+		"WorldLockCover.png",
+		"LevelLock.png"
+	]
+}

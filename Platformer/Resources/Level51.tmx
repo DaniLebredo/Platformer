@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="160" height="50" tilewidth="26" tileheight="26">
+ <tileset firstgid="1" name="TileMapForest" tilewidth="26" tileheight="26">
+  <image source="TileMapPyramids.png" width="512" height="286"/>
+ </tileset>
+ <layer name="Back" width="160" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3at0oEURhA4X0o4xMYn8BYWhk7rYy1grFWMIdKwRwqBeMbedpdmBnn4u5lueeDUw13+IsfLgNTqUiSJEmSJEmSJEmSJEmSJElK0TldxB5CyXqml9hDSJIkSZL0R6d0FnsIJeuRnmIPIUl1tEprsYdQsnZpL+PZWImkEJd0lfFsrkT6fyncTa/0lvHM/Ysr725KgfsXroVaqY3aqYM6S74j725KgfsXrou6qYd6qY/6S74j725KgfsXboAGaYiGaYRGo07UfNy/cOM0QZM0RdM0E3Wi5uP+hZunBVqkJVqmlYIz/jtezf0Lt04btElbtE07BWf8d7ya+xdunw7okI7omE6iTqSUXNMN3dId3dND1ImUknf6oE/6om/6KTgzW/FeUTzun2o18pvU/VOtRn6Tun+Kyf2TJEmSJNXTL9CP5cMAfQAA
+  </data>
+ </layer>
+ <layer name="Front" width="160" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2cy27cIBRA+ZuuJpp1m02adSeqEmU9iapI/ZFGav+h3xojDTKxgAFf7GvMOdJdDWR4nFwDtudkjDl58WDy+FFYHiDEyeAf6IF/oAn+gSb4B5rgH2iCf6CJ796/IV4z6+Ef1GBO7rPgH9TA9+/PELeZ9fAPasD6DzTBP9Ak17/jEF+H+HaJ9yvlAXKY+vd9iOdAOevee6A8/kEMP1/FIse/30PcBcriH4Rw3oXy1bXAP5AQu07iH6yB25fiH6yNNPfhH0iQ5j78axubf3LvXy0B/vWNnX/N+cC/bbN0fsI/SLG0H/gHKZb242zyn9+sReie7JL+2WdUX7xYu78to52fQhxnfuaokfNK/NMYP+19XS225p+d14MJ3+9PfebTg39bm7e55PTDXc9y/99i9/hz69/P/MyBf+2Q04/S5ypj87/WePXg33mIR4Xvrc3ZpNfL/v0r/BvR9s/yU+l7pRwKyvpziX8j+DcfqX83iZjW2bt/Je8H1+aX0vdKcHvI6Z4itmfwz8/IfyPOv9b2AEcvNOo7/9wc2fdbc89p8W+kNf+cMwcvSjyS1ndInkPn+jui4V/q3ZXY2VbIm2mkPJLWn7Zfcj+K/Dei4V+qX7F2pLyZxhL1c9uPf/v0b0tI58WtFWO5/tq1vUf/5q7TfXLWTD34N/UwtVfu3T/32wiSZwRK1uo9+Tc39ubfk4mf/bm1tu1zSQ70y5b0A/+2M0Zr+JfiyxD/L3VLfr/N4q/j38zn5wr/JtqIf/gXa0NovZLj5PT+Ru/7j179K223n/9i4TtZ+vuW+Id/NdsgPdfCv337F9vvp6LknD/373P+0qd/LQT+bWeMtPu557GVoD0v+Nf+2ErQnhf8a39sJWjPC/61P7YStOelFf8+AGOxmOkAfQAA
+  </data>
+ </layer>
+ <layer name="PreFront" width="160" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3OMQ0AAAjAMPybAJzCiQOeNtm/CAAAAAAAAOBDbrX18wcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMA1119EFgB9AAA=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="160" height="50">
+  <object gid="13" x="312" y="312"/>
+  <object gid="6" x="416" y="1144">
+   <properties>
+    <property name="left" value="true"/>
+   </properties>
+  </object>
+  <object gid="6" x="416" y="1092">
+   <properties>
+    <property name="delay" value="0.75"/>
+    <property name="left" value="true"/>
+   </properties>
+  </object>
+  <object gid="8" x="3770" y="598"/>
+  <object gid="6" x="104" y="234">
+   <properties>
+    <property name="left" value="false"/>
+   </properties>
+  </object>
+  <object gid="10" x="260" y="1144"/>
+  <object gid="5" x="182" y="364"/>
+  <object gid="5" x="182" y="312"/>
+  <object gid="5" x="182" y="416"/>
+  <object gid="5" x="182" y="468"/>
+  <object gid="5" x="182" y="520"/>
+  <object gid="5" x="182" y="572"/>
+  <object gid="5" x="182" y="624"/>
+  <object gid="5" x="182" y="676"/>
+  <object gid="5" x="182" y="728"/>
+  <object gid="5" x="182" y="780"/>
+  <object gid="5" x="182" y="832"/>
+  <object gid="5" x="182" y="884"/>
+  <object gid="5" x="182" y="936"/>
+  <object gid="5" x="182" y="988"/>
+  <object gid="5" x="182" y="1040"/>
+  <object gid="10" x="260" y="1092"/>
+  <object gid="15" x="624" y="1066"/>
+  <object gid="2" x="780" y="1144">
+   <properties>
+    <property name="left" value="false"/>
+   </properties>
+  </object>
+  <object gid="16" x="936" y="1118"/>
+  <object gid="10" x="884" y="1118"/>
+  <object gid="10" x="884" y="1144"/>
+  <object gid="2" x="858" y="1144">
+   <properties>
+    <property name="left" value="true"/>
+   </properties>
+  </object>
+  <object gid="23" x="754" y="1144"/>
+  <object gid="3" x="806" y="1144"/>
+  <object gid="17" x="1092" y="884"/>
+  <object gid="4" x="1248" y="936">
+   <properties>
+    <property name="inactive" value="true"/>
+    <property name="maxIdleTime" value="2"/>
+    <property name="tag" value="platform1"/>
+    <property name="velocity" value="6"/>
+    <property name="wayPoints" value="8,3#8,-3#8,3#8,-3#-8,3#-8,-3#-8,3"/>
+   </properties>
+  </object>
+  <object gid="7" x="1170" y="884">
+   <properties>
+    <property name="targetId" value="platform1"/>
+   </properties>
+  </object>
+  <object gid="5" x="1326" y="858"/>
+  <object gid="5" x="1352" y="832"/>
+  <object gid="5" x="1430" y="780"/>
+  <object gid="5" x="1456" y="780"/>
+  <object gid="5" x="1560" y="832"/>
+  <object gid="5" x="1586" y="858"/>
+  <object gid="5" x="1846" y="780"/>
+  <object gid="5" x="1482" y="780"/>
+  <object gid="5" x="1898" y="780"/>
+  <object gid="5" x="1872" y="780"/>
+  <object gid="5" x="1768" y="832"/>
+  <object gid="5" x="1976" y="832"/>
+  <object gid="5" x="2002" y="858"/>
+  <object gid="5" x="1742" y="858"/>
+  <object gid="3" x="2366" y="806">
+   <properties>
+    <property name="movable" value="true"/>
+   </properties>
+  </object>
+  <object gid="10" x="2392" y="806"/>
+  <object gid="10" x="2392" y="780">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="1" x="2496" y="806"/>
+  <object gid="6" x="2236" y="884">
+   <properties>
+    <property name="left" value="true"/>
+   </properties>
+  </object>
+  <object gid="10" x="2678" y="754"/>
+  <object gid="10" x="2704" y="754"/>
+  <object gid="10" x="2730" y="754"/>
+  <object gid="10" x="2756" y="754"/>
+  <object gid="10" x="2782" y="754"/>
+  <object gid="10" x="2808" y="754"/>
+  <object gid="10" x="2834" y="754"/>
+  <object gid="10" x="2860" y="754"/>
+  <object gid="10" x="2886" y="754"/>
+  <object gid="3" x="2704" y="728"/>
+  <object gid="3" x="2756" y="728"/>
+  <object gid="3" x="2808" y="728"/>
+  <object gid="3" x="2860" y="728"/>
+  <object gid="2" x="2938" y="676"/>
+  <object gid="16" x="2782" y="936"/>
+  <object gid="5" x="2730" y="832"/>
+  <object gid="5" x="2782" y="832"/>
+  <object gid="5" x="2834" y="832"/>
+  <object gid="5" x="2756" y="858"/>
+  <object gid="5" x="2808" y="858"/>
+  <object gid="17" x="2990" y="676"/>
+  <object gid="4" x="3146" y="728">
+   <properties>
+    <property name="inactive" value="true"/>
+    <property name="maxIdleTime" value="0.25"/>
+    <property name="tag" value="platform2"/>
+    <property name="velocity" value="5"/>
+    <property name="wayPoints" value="18,0"/>
+   </properties>
+  </object>
+  <object gid="7" x="3068" y="676">
+   <properties>
+    <property name="targetId" value="platform2"/>
+   </properties>
+  </object>
+  <object gid="21" x="2756" y="962"/>
+ </objectgroup>
+</map>

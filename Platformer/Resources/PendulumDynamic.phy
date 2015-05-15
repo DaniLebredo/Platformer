@@ -1,0 +1,33 @@
+{
+	"name": "PendulumDynamic",
+	"type": "dynamic",
+	"gravityScale": 0,
+	"fixtures": [
+		{
+			"name": "Stick",
+			"shape": {
+				"type": "box",
+				"size": { "width": 2, "height": 0.25 },
+				"position": { "x": 1, "y": 0 }
+			},
+			"density": 1,
+			"filter": {
+				"category": "CATEGORY_HAZARD",
+				"group": "GROUP_HAZARD"
+			},
+			"sensor": true,
+			"userData": { "type": 61 }
+		},
+		{
+			"name": "Head",
+			"shape": { "type": "circle", "radius": 0.4, "position": { "x": 2.4, "y": 0 } },
+			"density": 1,
+			"filter": {
+				"category": "CATEGORY_HAZARD",
+				"group": "GROUP_HAZARD"
+			},
+			"sensor": true,
+			"userData": { "type": 62, "killsPlayer": true, "killsEnemy": true }
+		}
+	]
+}

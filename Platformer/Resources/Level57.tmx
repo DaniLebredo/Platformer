@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="74" height="50" tilewidth="26" tileheight="26">
+ <tileset firstgid="1" name="TileMapForest" tilewidth="26" tileheight="26">
+  <image source="TileMapPyramids.png" width="512" height="286"/>
+ </tileset>
+ <layer name="Back" width="74" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3Ux0oDYRhG4bko6xUYyxXYcgXWnWLAulawrhXsZaVgLwtRsN6RZzkmWcSM5P91zgNnMYEJL99ikkSSFKsmaqYWaqU2ag+6KE4dVKBO6qJu6gm6KE691Ef9NECDVAy6KE5DNEwjNEpjNJ7xP0tZR0VommZoluZonhYy/udUxvdjtEwrtEprtE4bQRfFaZt2aJf2aJ8Ogi6K0zld0CVd0TXdBF0Upxd6pTd6pw/6DLpIkiRJ+plDOgo9osEe63jnlu5+eYek747pJPSIP+CeHkKPkP6BvH1zJsuqVd6+OfXeKW+8U6VFWir7zTtV2qSt1PNE4p2qOaWz1LN3qu6JnlPP3qk23kmSJEmS8ukL2XcXVdA5AAA=
+  </data>
+ </layer>
+ <layer name="PostFront" width="74" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3OQREAAAQAMMHproIf7rYEiwAAAAAAAAAAAABgqrYDT+R2AAAAAI5psoAxRtA5AAA=
+  </data>
+ </layer>
+ <layer name="Front" width="74" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2aS07DMBBAfRtgAeoa2CDWwAZ1zUcsuABHAAE3AMFZsaVamGEcz4y/SeZJI7VJU7tPY2di1xhFUVpzUiBOm/e6PZe7eLdxK4g3G1fNe90e78n91vMgqFyY9XmSoJ5orNXTIRKbievX6gnOTaEvyKONM1PHE9ZeT1LjDsuvbXC+Vj4twZOndj7F8rgHoSfXp6MgMEet8mk0YP0E6ZVPLTk26WeOUeenKUqNR+/nxfx6SMWI85PkHBXfd6ofSv002v1uBE+p5zuYT9c27gr0G2snNr5G8JQC5tMo920uLTyFba3N05eNA8L3U/Np6plQSm7tuQGv3dxaK59CpvIp9fwsIddTeJ2rCTj1QO66SgysdstdH84d4+H1klyq4Qnrh7QNn7dYXcKhhCc3P+3vIjVP7QWf/TR4nf9h/q+l16gfOPTMJ9cetgeBOel9b+ztSVJT9EA98dtvPT99m3V5apVPvSPs96ieSgJrWG5NC+8/bl97aZ58PbWNvKcA+03NL+n89Gr61EVw7Yez1++QeprTGjdl/kmxFk+c4xg35u84UE801BMNqqdnM5//x015ip1L7dHVXIuK1Szc49x2JHkjrStzPcVqFu5xCtDLnDw5YjUL9zgGZS+b8//anp5qUuJ3Seoj9aSe1NP4njadYw6eHmw8dY77GXhaSqgn9TSqpx9Vi+ri0DkAAA==
+  </data>
+ </layer>
+ <layer name="PreFront" width="74" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3OsQ0AIRADQRqiZqBTCD/44DJLMCM59rYGAPBvnM3PVrAFAAAAACClP/5fle5M/1elO9P/VenO9D8AAAAAAHCnDW++62vQOQAA
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="74" height="50">
+  <object gid="1" x="104" y="832">
+   <properties>
+    <property name="left" value="false"/>
+   </properties>
+  </object>
+  <object gid="1" x="364" y="728">
+   <properties>
+    <property name="left" value="true"/>
+   </properties>
+  </object>
+  <object gid="4" x="910" y="1092">
+   <properties>
+    <property name="inactive" value="true"/>
+    <property name="maxIdleTime" value="2"/>
+    <property name="tag" value="platform1"/>
+    <property name="velocity" value="4"/>
+    <property name="wayPoints" value="-25,0"/>
+   </properties>
+  </object>
+  <object gid="13" x="1118" y="1040"/>
+  <object gid="7" x="1014" y="1040">
+   <properties>
+    <property name="targetId" value="platform1"/>
+   </properties>
+  </object>
+  <object gid="5" x="676" y="962"/>
+  <object gid="5" x="702" y="962"/>
+  <object gid="5" x="390" y="962"/>
+  <object gid="5" x="416" y="962"/>
+  <object gid="5" x="364" y="962"/>
+  <object gid="5" x="546" y="962"/>
+  <object gid="5" x="572" y="962"/>
+  <object gid="5" x="728" y="962"/>
+  <object gid="4" x="234" y="1014">
+   <properties>
+    <property name="inactive" value="true"/>
+    <property name="maxIdleTime" value="2"/>
+    <property name="tag" value="platform2"/>
+    <property name="velocity" value="6"/>
+    <property name="wayPoints" value="0,6#0,4"/>
+   </properties>
+  </object>
+  <object gid="7" x="104" y="962">
+   <properties>
+    <property name="targetId" value="platform2"/>
+   </properties>
+  </object>
+  <object gid="2" x="364" y="832">
+   <properties>
+    <property name="left" value="true"/>
+   </properties>
+  </object>
+  <object gid="2" x="104" y="728">
+   <properties>
+    <property name="left" value="false"/>
+   </properties>
+  </object>
+  <object gid="5" x="78" y="494"/>
+  <object gid="5" x="156" y="390"/>
+  <object gid="5" x="234" y="702"/>
+  <object gid="5" x="234" y="754"/>
+  <object gid="5" x="104" y="390"/>
+  <object gid="5" x="234" y="858"/>
+  <object gid="16" x="286" y="208"/>
+  <object gid="17" x="416" y="624"/>
+  <object gid="6" x="546" y="624">
+   <properties>
+    <property name="left" value="true"/>
+   </properties>
+  </object>
+  <object gid="5" x="234" y="650"/>
+  <object gid="5" x="234" y="806"/>
+  <object gid="5" x="520" y="962"/>
+  <object gid="4" x="780" y="650">
+   <properties>
+    <property name="inactive" value="true"/>
+    <property name="maxIdleTime" value="2"/>
+    <property name="tag" value="platform3"/>
+    <property name="velocity" value="3"/>
+    <property name="wayPoints" value="13,0"/>
+   </properties>
+  </object>
+  <object gid="7" x="676" y="572">
+   <properties>
+    <property name="targetId" value="platform3"/>
+   </properties>
+  </object>
+  <object gid="6" x="1092" y="598">
+   <properties>
+    <property name="left" value="true"/>
+   </properties>
+  </object>
+  <object gid="6" x="1144" y="598">
+   <properties>
+    <property name="delay" value="0.75"/>
+    <property name="left" value="false"/>
+   </properties>
+  </object>
+  <object gid="16" x="1196" y="364"/>
+  <object gid="5" x="1014" y="286"/>
+  <object gid="5" x="1040" y="286"/>
+  <object gid="5" x="1014" y="260"/>
+  <object type="Water" x="728" y="650" width="806" height="104"/>
+  <object gid="6" x="1352" y="962">
+   <properties>
+    <property name="left" value="false"/>
+   </properties>
+  </object>
+  <object gid="8" x="1248" y="1040"/>
+  <object gid="15" x="1404" y="1040"/>
+  <object gid="5" x="1586" y="806"/>
+  <object gid="5" x="1560" y="832"/>
+  <object gid="5" x="1586" y="858"/>
+  <object gid="5" x="1586" y="754"/>
+  <object gid="5" x="1586" y="702"/>
+  <object gid="5" x="1586" y="650"/>
+  <object gid="5" x="1586" y="598"/>
+  <object gid="10" x="1586" y="962"/>
+  <object gid="10" x="1560" y="962"/>
+  <object gid="10" x="1352" y="1014"/>
+  <object gid="10" x="1352" y="1040"/>
+  <object gid="5" x="1560" y="884"/>
+  <object gid="5" x="1586" y="910"/>
+  <object gid="5" x="1040" y="442"/>
+  <object gid="5" x="1014" y="416"/>
+  <object gid="5" x="1014" y="442"/>
+  <object gid="17" x="1170" y="520"/>
+  <object gid="19" x="988" y="1040"/>
+  <object gid="3" x="1612" y="962"/>
+  <object gid="3" x="1612" y="936"/>
+  <object gid="5" x="364" y="260"/>
+  <object gid="5" x="364" y="312"/>
+  <object gid="5" x="364" y="364"/>
+  <object gid="5" x="364" y="416"/>
+  <object gid="5" x="364" y="468"/>
+  <object gid="5" x="364" y="520"/>
+  <object gid="5" x="364" y="572"/>
+  <object gid="4" x="1456" y="650">
+   <properties>
+    <property name="inactive" value="false"/>
+    <property name="maxIdleTime" value="2"/>
+    <property name="tag" value="platform3"/>
+    <property name="velocity" value="3"/>
+    <property name="wayPoints" value="-9,0"/>
+   </properties>
+  </object>
+  <object gid="1" x="156" y="208"/>
+  <object gid="21" x="156" y="312">
+   <properties>
+    <property name="left" value="false"/>
+   </properties>
+  </object>
+  <object gid="21" x="104" y="312">
+   <properties>
+    <property name="left" value="true"/>
+   </properties>
+  </object>
+  <object gid="5" x="1664" y="884"/>
+  <object gid="5" x="1664" y="858"/>
+  <object gid="5" x="1690" y="858"/>
+  <object gid="5" x="1690" y="884"/>
+ </objectgroup>
+</map>

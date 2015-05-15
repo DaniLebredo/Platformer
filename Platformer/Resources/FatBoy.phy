@@ -1,0 +1,124 @@
+{
+	"name": "FatBoy",
+	"type": "dynamic",
+	"fixedRotation": true,
+	"fixtures": [
+		{
+			"name": "Head",
+			"shape": {
+				"type": "polygon",
+				"vertices": [{ "x": 0.4, "y": 0.55 }, { "x": 0.3, "y": 0.95 }, { "x": -0.3, "y": 0.95 }, { "x": -0.4, "y": 0.55 }]
+			},
+			"density": 0.4,
+			"friction": 0,
+			"filter": {
+				"category": "CATEGORY_ENEMY",
+				"mask": "MASK_ENEMY",
+				"group": "GROUP_ENEMY"
+			},
+			"userData": { "type": 8, "killsPlayer": true }
+		},
+		{
+			"name": "MainPart",
+			"shape": {
+				"type": "circle",
+				"radius": 0.4,
+				"position": { "x": 0, "y": 0.3 }
+			},
+			"density": 0.6,
+			"friction": 0,
+			"filter": {
+				"category": "CATEGORY_ENEMY",
+				"mask": "MASK_ENEMY",
+				"group": "GROUP_ENEMY"
+			},
+			"userData": { "type": 7, "killsPlayer": true }
+		},
+		{
+			"name": "Bottom",
+			"shape": {
+				"type": "circle",
+				"radius": 0.4,
+				"position": { "x": 0, "y": -0.1 }
+			},
+			"density": 0.6,
+			"friction": 0,
+			"filter": {
+				"category": "CATEGORY_ENEMY",
+				"mask": "MASK_ENEMY",
+				"group": "GROUP_ENEMY"
+			},
+			"userData": { "type": 7, "killsPlayer": true }
+		},
+		{
+			"name": "LeftSensor",
+			"shape": {
+				"type": "box",
+				"size": { "width": 0.1, "height": 0.8 },
+				"position": { "x": -0.4, "y": 0.1 }
+			},
+			"filter": {
+				"category": "CATEGORY_ENEMY",
+				"mask": "MASK_GROUND_SENSOR"
+			},
+			"sensor": true,
+			"userData": { "type": 9 }
+		},
+		{
+			"name": "RightSensor",
+			"shape": {
+				"type": "box",
+				"size": { "width": 0.1, "height": 0.8 },
+				"position": { "x": 0.4, "y": 0.1 }
+			},
+			"filter": {
+				"category": "CATEGORY_ENEMY",
+				"mask": "MASK_GROUND_SENSOR"
+			},
+			"sensor": true,
+			"userData": { "type": 10 }
+		},
+		{
+			"name": "FootSensor",
+			"shape": {
+				"type": "box",
+				"size": { "width": 0.6, "height": 0.2 },
+				"position": { "x": 0, "y": -0.5 }
+			},
+			"filter": {
+				"category": "CATEGORY_ENEMY",
+				"mask": "MASK_GROUND_SENSOR"
+			},
+			"sensor": true,
+			"userData": { "type": 11 }
+		},
+		{
+			"name": "LeftFootSensor",
+			"shape": {
+				"type": "box",
+				"size": { "width": 0.2, "height": 0.2 },
+				"position": { "x": -0.4, "y": -0.5 }
+			},
+			"filter": {
+				"category": "CATEGORY_ENEMY",
+				"mask": "MASK_GROUND_SENSOR"
+			},
+			"sensor": true,
+			"userData": { "type": 12 }
+		},
+		{
+			"name": "RightFootSensor",
+			"shape": {
+				"type": "box",
+				"size": { "width": 0.2, "height": 0.2 },
+				"position": { "x": 0.4, "y": -0.5 }
+			},
+			"filter": {
+				"category": "CATEGORY_ENEMY",
+				"mask": "MASK_GROUND_SENSOR"
+			},
+			"sensor": true,
+			"userData": { "type": 13 }
+		}
+	]
+}

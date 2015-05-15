@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="110" height="47" tilewidth="26" tileheight="26">
+ <tileset firstgid="1" name="TileMapForest" tilewidth="26" tileheight="26">
+  <image source="TileMapPyramids.png" width="512" height="286"/>
+ </tileset>
+ <layer name="Back" width="110" height="47">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3bx0oDURiG4VyU9QqsV2BdurLubGBdK1jXCvayUcFeQFCw3pHv4rjRJMwxc+L5Z74H3lUmYfDbjDmkUBAREZG0jCVM4qLdbEq6m+Uda6iW6qieGqjRZZXF3RZo0eP6JmqmFmqlNmp3WfXX3X42XsV73qBNj+s7qJO6qJt6qNdl0Wgh/d0O6DDwfZ/Smcf1/TRAgzREwzTisijEbrd0F/i+n+jZ4/opmqYZmqU5mndZFGK3GC3RMq3QKq3RusuiNHf772eVcrZom3Zol/Zo3xWrIzou8VpedjunC7qkK7qmG1es7umhxGt52e2FXumN3umDPl0W5WW3LNJeNmmv9JR7lqjUY6DPld/PEpX+rfuKlPX/2bIgzWcP7VY92s0m7WaTdrMptt18zz3zKrbdfM898yq23Yqde04mfG81zmVjEdtuxc49JxK+1/dc9sTj2tikvZfYoN1EsiPk9+gSTrkzeRERERGRb3n6bjFLqvGbDxERERERkdC+AO1CW3bIUAAA
+  </data>
+ </layer>
+ <layer name="PostFront" width="110" height="47">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3YsRGAMAwEQRVut4RrwJWhnARINMa7M59f/BEAAAAAAPB/vTqAT1p1ADdHblRH8NqZm9URAAAAsBEfypp8KAAAAAAAAAAA8NwFmU6GgshQAAA=
+  </data>
+ </layer>
+ <layer name="Front" width="110" height="47">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2awXIUIRCGeZvoYbf2vHpRz5qLel61csgL+AjRJG8QS59VKJeyQzXQ9DTMNNt/1V/ZzMwODB/Q0LPOjdd77w8Cvh5d8QuXcdMp46ZTxk2nArdH7y/AD5ljl8jt6P2q4jUUuKVtnjs2OzeM0Q9Xn2vWEMboo/en5NjJlcffDNy4MWMNYdzenV37Hqz7nfdrZh0OzO9JSzs36vfSGPiVcZ9b753358z5gxvHlcstzqncftuq0GZhTuS0dyvvXNuXuMVzJa6SWrq2XjtWxLaCSmP2k6PzprAxbsuFcUvnRYwZZAvnDIwNvH8aS9Nz6flcOUs1K7daveBzY2sdKcFywnpIit+M3LC9QaoSN0lh7SvBTws3GD+gsLmpdW8wmlvKj8Nwa9xCPEifQTJGxHvB3MJa3HIMMacx+A3xvqO41fJW4Rxnn4Tx6hF3YFnU3BPFb93ztdLWxluNW61f5kxpvxo/St5WklWunTWOtxHO9Y0ePGblduV9757nqKRde++zBUvPk1jfXLq+lewLcW0Z16OYTq78Pq/GnHp9671z+VSJ8SY9BqW5RZW4QVH2flAt9ZV8th6xQ5LbAfw9MP6PonKj7P1K9Y3CyroEbjshx5hA5catb6oe3HrsL2aZJ1t18v7p/RIcg/0mKq6vOO+honqvq7fIbQbNzG3pmBr5zrqm8CwwbvfmxskbwTwUxi3WfVf4THmHWqsTlh/tpVpZad1H7fup+e5jUiduLgsrC/tNEHb9/uxw/W/vF4hhDLvKXPOroZ5YH4V9cXSeqMawd/7orvHesO2WztOtbZ2W1XvNOJO3xG0LY0yLQ9vt3f950rjpsI03nS5xo+ZluO1u3JZx2zubJ7XZ5kmdNm46DefJk/uXJy7tuaOwvfcfRtlQxo3fdktk4824mcum5kNDHjPmDnO/yWvNTRm3/r7x/n72N6F7GjedNm46bdx02rjptHHT6dHc/gJ4MiuKyFAAAA==
+  </data>
+ </layer>
+ <layer name="PreFront" width="110" height="47">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3YQQrCQAwF0DlX9QrWW9ljiDe1hRYGBSvaOMS+B9l+An8TUgoAAADw767j3FovAbztGJjdBWbv3Tkw+xSYvXd6y0lvOektp8s4h7LdfdLNedMMG2XyrJ9nrb+6j1czVJl95OIA/NQ395n7qx295aS3nPSWk95y0ltOn/yNll+Ev1A7j3+jtQ6nzurfEAAAAAAAAABA7Q4xXSopyFAAAA==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="110" height="47">
+  <object gid="18" x="390" y="494"/>
+  <object gid="18" x="468" y="494"/>
+  <object gid="18" x="546" y="442"/>
+  <object gid="13" x="130" y="520"/>
+  <object gid="18" x="312" y="546"/>
+  <object gid="18" x="624" y="390"/>
+  <object gid="5" x="884" y="416"/>
+  <object gid="5" x="910" y="416"/>
+  <object gid="5" x="754" y="338"/>
+  <object gid="5" x="780" y="338"/>
+  <object gid="5" x="962" y="182"/>
+  <object gid="5" x="962" y="208"/>
+  <object gid="5" x="962" y="286"/>
+  <object gid="5" x="962" y="338"/>
+  <object gid="5" x="962" y="390"/>
+  <object gid="5" x="962" y="416"/>
+  <object gid="5" x="962" y="260"/>
+  <object gid="5" x="962" y="312"/>
+  <object gid="16" x="1066" y="234"/>
+  <object gid="5" x="910" y="234"/>
+  <object gid="5" x="884" y="234"/>
+  <object gid="5" x="780" y="312"/>
+  <object gid="5" x="754" y="312"/>
+  <object gid="17" x="1248" y="286"/>
+  <object type="Water" x="1352" y="286" width="572" height="182"/>
+  <object gid="20" x="1482" y="364"/>
+  <object gid="20" x="1664" y="364">
+   <properties>
+    <property name="delay" value="1.25"/>
+   </properties>
+  </object>
+  <object gid="6" x="1248" y="182">
+   <properties>
+    <property name="left" value="false"/>
+   </properties>
+  </object>
+  <object gid="20" x="1872" y="364">
+   <properties>
+    <property name="delay" value="2.5"/>
+   </properties>
+  </object>
+  <object gid="23" x="1144" y="416"/>
+  <object gid="8" x="650" y="728"/>
+  <object gid="3" x="702" y="598"/>
+  <object gid="3" x="702" y="572"/>
+  <object gid="3" x="806" y="598"/>
+  <object gid="3" x="806" y="572"/>
+  <object gid="3" x="910" y="598"/>
+  <object gid="3" x="910" y="572"/>
+  <object gid="5" x="936" y="650"/>
+  <object gid="5" x="676" y="468"/>
+  <object gid="5" x="624" y="546"/>
+  <object gid="5" x="624" y="572"/>
+  <object gid="5" x="676" y="442"/>
+  <object gid="3" x="1014" y="572"/>
+  <object gid="3" x="1014" y="598"/>
+  <object gid="5" x="728" y="650"/>
+  <object gid="5" x="754" y="676"/>
+  <object gid="5" x="780" y="650"/>
+  <object gid="5" x="806" y="676"/>
+  <object gid="5" x="858" y="676"/>
+  <object gid="5" x="884" y="650"/>
+  <object gid="5" x="910" y="676"/>
+  <object gid="5" x="832" y="650"/>
+  <object gid="5" x="1066" y="754"/>
+  <object gid="5" x="1040" y="754"/>
+  <object gid="16" x="1768" y="1014"/>
+  <object gid="6" x="1014" y="728">
+   <properties>
+    <property name="left" value="false"/>
+   </properties>
+  </object>
+  <object gid="19" x="2288" y="390"/>
+  <object gid="6" x="2132" y="702">
+   <properties>
+    <property name="left" value="false"/>
+   </properties>
+  </object>
+  <object gid="5" x="2444" y="416"/>
+  <object gid="5" x="2444" y="468"/>
+  <object gid="5" x="2444" y="520"/>
+  <object gid="5" x="2444" y="572"/>
+  <object gid="5" x="2444" y="364"/>
+  <object gid="17" x="1170" y="702"/>
+  <object gid="2" x="1534" y="858"/>
+  <object gid="2" x="1716" y="858"/>
+  <object gid="1" x="1482" y="728"/>
+  <object gid="6" x="1560" y="962">
+   <properties>
+    <property name="left" value="true"/>
+   </properties>
+  </object>
+  <object gid="6" x="1690" y="962">
+   <properties>
+    <property name="delay" value="0.75"/>
+    <property name="left" value="false"/>
+   </properties>
+  </object>
+  <object gid="1" x="1690" y="1040"/>
+  <object gid="5" x="1456" y="910"/>
+  <object gid="5" x="1482" y="884"/>
+  <object gid="5" x="1456" y="858"/>
+  <object gid="5" x="1482" y="832"/>
+  <object gid="5" x="1456" y="806"/>
+  <object gid="5" x="1794" y="910"/>
+  <object gid="5" x="1768" y="884"/>
+  <object gid="5" x="1794" y="858"/>
+  <object gid="5" x="1768" y="832"/>
+  <object gid="5" x="1794" y="806"/>
+  <object gid="5" x="1352" y="936"/>
+  <object gid="5" x="1378" y="936"/>
+  <object gid="5" x="1352" y="858"/>
+  <object gid="5" x="1378" y="858"/>
+  <object gid="5" x="1352" y="780"/>
+  <object gid="5" x="1378" y="780"/>
+  <object gid="5" x="1352" y="1014"/>
+  <object gid="5" x="1378" y="1014"/>
+  <object gid="16" x="1118" y="598"/>
+  <object gid="17" x="988" y="676"/>
+  <object gid="22" x="1664" y="728">
+   <properties>
+    <property name="left" value="false"/>
+   </properties>
+  </object>
+  <object gid="5" x="1638" y="806"/>
+  <object gid="5" x="1612" y="806"/>
+  <object gid="3" x="1586" y="858"/>
+  <object gid="9" x="1300" y="676">
+   <properties>
+    <property name="clockwise" value="true"/>
+   </properties>
+  </object>
+  <object gid="5" x="2080" y="234"/>
+  <object gid="5" x="2106" y="234"/>
+  <object gid="5" x="2132" y="260"/>
+  <object gid="5" x="2158" y="260"/>
+  <object gid="5" x="2184" y="260"/>
+  <object gid="5" x="2028" y="208"/>
+  <object gid="5" x="2054" y="208"/>
+  <object gid="5" x="1924" y="598"/>
+  <object gid="5" x="1950" y="598"/>
+  <object gid="5" x="1924" y="624"/>
+  <object gid="5" x="1950" y="624"/>
+  <object gid="5" x="1794" y="598"/>
+  <object gid="5" x="1820" y="598"/>
+  <object gid="5" x="1794" y="624"/>
+  <object gid="5" x="1820" y="624"/>
+  <object gid="5" x="1404" y="650"/>
+  <object gid="5" x="1430" y="650"/>
+  <object gid="5" x="2366" y="624"/>
+  <object gid="5" x="2340" y="650"/>
+  <object gid="5" x="2288" y="650"/>
+  <object gid="5" x="2262" y="676"/>
+  <object type="Water" x="208" y="546" width="364" height="208"/>
+ </objectgroup>
+</map>

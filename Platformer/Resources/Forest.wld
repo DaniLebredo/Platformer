@@ -1,0 +1,64 @@
+{
+	"name": "Morgan Forest",
+	"locked": false,
+	"staticBackground": "BackgroundForest.png",
+	"music": "MusicForest.m4a",
+	"tileAnims": [
+		{ "current" : 48, "next": 49, "delay": 2 },
+		{ "current" : 49, "next": 50, "delay": 0.05 },
+		{ "current" : 50, "next": 51, "delay": 0.05 },
+		{ "current" : 51, "next": 48, "delay": 0.05 },
+		{ "current" : 67, "next": 68, "delay": 2 },
+		{ "current" : 68, "next": 69, "delay": 0.05 },
+		{ "current" : 69, "next": 70, "delay": 0.05 },
+		{ "current" : 70, "next": 67, "delay": 0.05 },
+		{ "current" : 86, "next": 87, "delay": 2 },
+		{ "current" : 87, "next": 88, "delay": 0.05 },
+		{ "current" : 88, "next": 89, "delay": 0.05 },
+		{ "current" : 89, "next": 86, "delay": 0.05 },
+		{ "current" : 105, "next": 106, "delay": 2 },
+		{ "current" : 106, "next": 107, "delay": 0.05 },
+		{ "current" : 107, "next": 108, "delay": 0.05 },
+		{ "current" : 108, "next": 105, "delay": 0.05 },
+		{ "current" : 125, "next": 126, "delay": 0.1 },
+		{ "current" : 126, "next": 127, "delay": 0.1 },
+		{ "current" : 127, "next": 125, "delay": 0.1 }
+	],
+	"frameAnims": [
+		{ "name": "Hills",		"texture": "HillsForest.png",	"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 256, "height": 160 }, "numFramesTotal": 2, "numFramesPerRow": 2 },
+		{ "name": "Bull",		"texture": "BullForest.png",	"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 64, "height": 64 }, "numFramesTotal": 9, "numFramesPerRow": 3 },
+		{ "name": "Wolf",		"texture": "WolfForest.png",	"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 58, "height": 58 }, "numFramesTotal": 6, "numFramesPerRow": 3 },
+		{ "name": "Monkey",		"texture": "MonkeyForest.png",	"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 50, "height": 50 }, "numFramesTotal": 8, "numFramesPerRow": 4 },
+		{ "name": "Spider",		"texture": "SpiderForest.png",	"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 32, "height": 32 }, "numFramesTotal": 7, "numFramesPerRow": 4 }
+	],
+	"textures": [
+		"TileMapForest.png"
+	],
+	"levels": [
+		{
+			"time": 60,
+			"locked": false
+		},
+		{
+			"time": 60
+		},
+		{
+			"time": 60
+		},
+		{
+			"time": 60
+		},
+		{
+			"time": 60
+		},
+		{
+			"time": 60
+		},
+		{
+			"time": 70
+		},
+		{
+			"time": 75
+		}
+	]
+}

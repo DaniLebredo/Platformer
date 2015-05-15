@@ -1,0 +1,91 @@
+{
+	"name": "Jumper",
+	"type": "dynamic",
+	"fixedRotation": true,
+	"fixtures": [
+		{
+			"name": "Head",
+			"shape": {
+				"type": "polygon",
+				"vertices": [{ "x": 0.45, "y": 0.6 }, { "x": 0.35, "y": 0.9 }, { "x": -0.35, "y": 0.9 }, { "x": -0.45, "y": 0.6 }]
+			},
+			"density": 0.4,
+			"friction": 0,
+			"filter": {
+				"category": "CATEGORY_ENEMY",
+				"mask": "MASK_ENEMY",
+				"group": "GROUP_ENEMY"
+			},
+			"userData": { "type": 8, "killsPlayer": true }
+		},
+		{
+			"name": "BodyPart1",
+			"shape": {
+				"type": "circle",
+				"radius": 0.5,
+				"position": { "x": 0, "y": 0.2 }
+			},
+			"filter": {
+				"category": "CATEGORY_ENEMY",
+				"mask": "MASK_ENEMY",
+				"group": "GROUP_ENEMY"
+			},
+			"userData": { "type": 7, "killsPlayer": true }
+		},
+		{
+			"name": "BodyPart2",
+			"shape": {
+				"type": "circle",
+				"radius": 0.5
+			},
+			"filter": {
+				"category": "CATEGORY_ENEMY",
+				"mask": "MASK_ENEMY",
+				"group": "GROUP_ENEMY"
+			},
+			"userData": { "type": 7, "killsPlayer": true }
+		},
+		{
+			"name": "LeftSensor",
+			"shape": {
+				"type": "box",
+				"size": { "width": 0.1, "height": 0.6 },
+				"position": { "x": -0.5, "y": 0.1 }
+			},
+			"filter": {
+				"category": "CATEGORY_ENEMY",
+				"mask": "MASK_GROUND_SENSOR"
+			},
+			"sensor": true,
+			"userData": { "type": 9 }
+		},
+		{
+			"name": "RightSensor",
+			"shape": {
+				"type": "box",
+				"size": { "width": 0.1, "height": 0.6 },
+				"position": { "x": 0.5, "y": 0.1 }
+			},
+			"filter": {
+				 "category": "CATEGORY_ENEMY",
+				 "mask": "MASK_GROUND_SENSOR"
+			},
+			"sensor": true,
+			"userData": { "type": 10 }
+		},
+		{
+			"name": "FootSensor",
+			"shape": {
+				"type": "box",
+				"size": { "width": 0.9, "height": 0.15 },
+				"position": { "x": 0, "y": -0.5 }
+			},
+			"filter": {
+				"category": "CATEGORY_ENEMY",
+				"mask": "MASK_GROUND_SENSOR"
+			},
+			"sensor": true,
+			"userData": { "type": 11 }
+		}
+	]
+}

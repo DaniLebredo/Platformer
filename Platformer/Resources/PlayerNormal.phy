@@ -1,0 +1,59 @@
+{
+	"name": "PlayerNormal",
+	"type": "dynamic",
+	"fixedRotation": true,
+	"bullet": true,
+	"fixtures": [
+		{
+			"name": "Top",
+			"shape": { "type": "circle", "radius": 0.475, "position": { "x": 0, "y": 0.825 } },
+			"density": 0.1650173,
+			"friction": 0,
+			"filter": { "category": "CATEGORY_PLAYER", "mask": "MASK_PLAYER" },
+			"userData": { "type": 203 }
+		},
+		{
+			"name": "Middle",
+			"shape": { "type": "circle", "radius": 0.475, "position": { "x": 0, "y": 0.42 } },
+			"density": 0.1650173,
+			"friction": 0,
+			"filter": { "category": "CATEGORY_PLAYER", "mask": "MASK_PLAYER" },
+			"userData": { "type": 202 }
+		},
+		{
+			"name": "Bottom",
+			"shape": { "type": "circle", "radius": 0.475, "position": { "x": 0, "y": 0.015 } },
+			"density": 0.1650173,
+			"friction": 0,
+			"filter": { "category": "CATEGORY_PLAYER", "mask": "MASK_PLAYER" },
+			"userData": { "type": 201 }
+		},
+		{
+			"name": "Stabilizer",
+			"shape": {
+				"type": "polygon",
+				"vertices": [{ "x": -0.4, "y": -0.48 }, { "x": 0.4, "y": -0.48 }, { "x": 0.475, "y": -0.2 }, { "x": -0.475, "y": -0.2 }]
+			},
+			"density": 0.1650173,
+			"friction": 0,
+			"filter": { "category": "CATEGORY_PLAYER", "mask": "MASK_PLAYER" },
+			"userData": { "type": 200 }
+		},
+		{
+			"name": "Smoothener",
+			"shape": { "type": "circle", "radius": 0.2, "position": { "x": 0, "y": -0.3 } },
+			"density": 0.1650173,
+			"friction": 0,
+			"filter": { "category": "CATEGORY_PLAYER", "mask": "MASK_PLAYER" },
+			"userData": { "type": 200 }
+		},
+		{
+			"name": "FootSensor",
+			"shape": { "type": "box", "size": { "width": 0.8, "height": 0.15 }, "position": { "x": 0, "y": -0.555 } },
+			"density": 0.1650173,
+			"filter": { "category": "CATEGORY_PLAYER", "mask": "MASK_GROUND_SENSOR" },
+			"sensor": true,
+			"userData": { "type": 1 }
+		}
+	]
+}

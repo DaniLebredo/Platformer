@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="52" height="65" tilewidth="26" tileheight="26">
+ <tileset firstgid="1" name="TileMapForest" tilewidth="26" tileheight="26">
+  <image source="TileMapDesert.png" width="512" height="286"/>
+ </tileset>
+ <layer name="Back" width="52" height="65">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3ZN06DQRRFYS+KuALiCoglFbEDGmINErEGiViDRKxBIu6I4wXYeEYz783AvdJXzzuy5OZvNDRN02y26n1A4rXr6UI3etCLPvQnfn8lsXY9AxjEEIYxgtGKe8YwjglMYgrTFffMYg7zWMAiliruWcM6NrCJLWxX3LOHfRzgEEc4rrjnDOe4wCWucF1xzx3u8YBHPOG54p43vOMDn/jCd+E9TTMdyrEcPSl+S/WoRz3qUU/+Hs/9pZbm1KMey6lHPZZTj3osp56ym3L0eDbl6vFqytnj0ZT6Fu+mVi21fjdUT9lTT9kL7dnBrs1pUQvtOcGpzWlRC+25wa3NaVEL7XnBa+Rbyy3eSjnL/wPPnhxd6gmfZY/F/mNPp9/fQ3jut+YYnlNP2T2apmma/X4AJmVycdA0AAA=
+  </data>
+ </layer>
+ <layer name="PostFront" width="52" height="65">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3YOw7CMBAFQN//LBAgOQDfcC62pEABCyu2YUZ6UgrLed1amxIAsKZ95FC7xJfGp+9r5FarCCwYIrvaJQo6Ry61S9CFTWRbucO94F3HyKngfZArZ5708M77dJ5MyTsP4JV55f/1MFtymC20ws4AlrWwWyjJbgEA+HXj+yMANM6+CoB/9QDwmes20DQAAA==
+  </data>
+ </layer>
+ <layer name="Front" width="52" height="65">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2aS04DMQyGcxtgUalr2isUxA0AIS5QuALPEyABZ+1kMWpw87ATe5yEWPoX1Uwy/mTn4aTG9GWbhLZ6rmXZVUIvBs95iXhH2lI8FM5X8M71ghyz5fJg1BuPjWFpzsEcTkmShyNGu8Lvf066Y9SXKYtRKQ93zu8K+rS5BueYlnlKY9Mjz8+kc4QuGuHpLT6DJ+1TTTxnBjeeQnqf9GaOY26VkDRPqUEf4e/Ys8Ejz0Mxl8fm+a+RXX+wa04sBpR2PcXHWo08vY0f6+PaUYrHfS7JY/fusI7xrRmwnvw2+LUKjk9JHuw6D30oiffgqZeHa/0Jff/WHPdhrjbmdL82nx3E+vONPWga89tDwp9a8y3XH2x/vj12yzyh9lI8qbrFp5p5cv35LzyhmhS2b4UH27628VNyx6ARH0y+5DLVmG9zvymmFs53oD/UOEnXP5Raxsq3n6Qw1bC/dm0/6cmj50Z5SozjLivG8zjpXs79P8bFEuO5kXP/xFaGhyXGE6tzuMxdi6V5ljBODk0eibho83BzaPCE9rGaPKE6BlPfhPpbgifXP6ppxyfH35Ra4eFc9yk8awbVwGIV+r8o5Q4E3nvYs2j3HBjqQ4FTMic56oLBQ+OhzO/aPJgxRpHGPDE0NDTUmg6jhP8j0DQAAA==
+  </data>
+ </layer>
+ <layer name="PreFront" width="52" height="65">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3PsQkAIAxFQecSVxBHFDfVBYSAWgh3kO4XLykBAAAAwJ9KYJOfV9zTApv6vOIe/+z1deOgBQAAAAAAAAB+NgEdA/OP0DQAAA==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="52" height="65">
+  <object gid="4" x="182" y="624">
+   <properties>
+    <property name="maxIdleTime" value="1"/>
+    <property name="velocity" value="5"/>
+    <property name="wayPoints" value="0,-8"/>
+   </properties>
+  </object>
+  <object gid="13" x="156" y="286"/>
+  <object gid="5" x="858" y="546"/>
+  <object gid="5" x="468" y="260"/>
+  <object gid="5" x="520" y="260"/>
+  <object gid="5" x="572" y="364"/>
+  <object gid="5" x="156" y="468"/>
+  <object gid="5" x="572" y="312"/>
+  <object gid="5" x="572" y="260"/>
+  <object gid="5" x="156" y="416"/>
+  <object gid="5" x="416" y="494"/>
+  <object gid="5" x="780" y="546"/>
+  <object gid="5" x="416" y="468"/>
+  <object gid="10" x="624" y="494"/>
+  <object gid="10" x="624" y="546">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="728" y="546"/>
+  <object gid="5" x="780" y="468"/>
+  <object gid="5" x="806" y="468"/>
+  <object gid="5" x="832" y="468"/>
+  <object gid="5" x="858" y="468"/>
+  <object gid="5" x="858" y="520"/>
+  <object gid="5" x="780" y="520"/>
+  <object gid="5" x="806" y="572"/>
+  <object gid="5" x="858" y="572"/>
+  <object gid="5" x="832" y="572"/>
+  <object gid="5" x="780" y="572"/>
+  <object gid="3" x="208" y="390"/>
+  <object gid="5" x="468" y="884"/>
+  <object gid="5" x="364" y="884"/>
+  <object gid="5" x="910" y="936"/>
+  <object gid="5" x="520" y="884"/>
+  <object gid="5" x="468" y="780"/>
+  <object gid="5" x="312" y="884"/>
+  <object gid="10" x="572" y="1430"/>
+  <object gid="10" x="598" y="1430"/>
+  <object gid="10" x="624" y="1430"/>
+  <object gid="3" x="572" y="1482">
+   <properties>
+    <property name="tag" value="bacva"/>
+   </properties>
+  </object>
+  <object gid="3" x="598" y="1482"/>
+  <object gid="3" x="624" y="1482"/>
+  <object gid="10" x="832" y="1248"/>
+  <object gid="10" x="884" y="1196"/>
+  <object gid="10" x="936" y="1144"/>
+  <object gid="5" x="936" y="1144"/>
+  <object gid="5" x="884" y="1196"/>
+  <object gid="5" x="832" y="1248"/>
+  <object gid="5" x="520" y="1482"/>
+  <object gid="5" x="390" y="1456"/>
+  <object gid="5" x="442" y="1456"/>
+  <object gid="5" x="494" y="1456"/>
+  <object gid="5" x="416" y="1482"/>
+  <object gid="5" x="468" y="1482"/>
+  <object gid="5" x="754" y="1456"/>
+  <object gid="5" x="702" y="1456"/>
+  <object gid="5" x="806" y="1456"/>
+  <object gid="5" x="780" y="1482"/>
+  <object gid="5" x="728" y="1482"/>
+  <object gid="5" x="676" y="1482"/>
+  <object gid="8" x="702" y="390"/>
+  <object gid="2" x="754" y="390"/>
+  <object gid="5" x="650" y="858"/>
+  <object gid="5" x="650" y="806"/>
+  <object gid="5" x="806" y="832"/>
+  <object gid="5" x="910" y="728"/>
+  <object gid="5" x="806" y="676"/>
+  <object gid="5" x="546" y="780"/>
+  <object gid="5" x="546" y="988"/>
+  <object gid="5" x="494" y="962"/>
+  <object gid="5" x="468" y="988"/>
+  <object gid="5" x="520" y="962"/>
+  <object gid="5" x="520" y="1196"/>
+  <object gid="5" x="364" y="1248"/>
+  <object gid="5" x="520" y="1222"/>
+  <object gid="10" x="728" y="494"/>
+  <object gid="10" x="910" y="1300">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="884" y="1326">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="910" y="1326">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="884" y="1300">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="832" y="1300">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="832" y="1326">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="858" y="1326">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="858" y="1300">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="780" y="1326">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="806" y="1326">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="806" y="1300">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="754" y="1326">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="780" y="1300">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="5" x="650" y="754"/>
+  <object gid="5" x="806" y="1326"/>
+  <object gid="7" x="832" y="1326">
+   <properties>
+    <property name="targetId" value="bacva"/>
+   </properties>
+  </object>
+  <object gid="5" x="884" y="1300"/>
+  <object gid="5" x="832" y="1300"/>
+  <object gid="5" x="858" y="1326"/>
+  <object gid="4" x="182" y="832">
+   <properties>
+    <property name="maxIdleTime" value="1"/>
+    <property name="velocity" value="5"/>
+    <property name="wayPoints" value="0,-8"/>
+   </properties>
+  </object>
+  <object gid="23" x="806" y="598"/>
+  <object gid="5" x="520" y="754"/>
+  <object gid="5" x="364" y="1222"/>
+  <object gid="5" x="494" y="754"/>
+  <object gid="21" x="988" y="1066">
+   <properties>
+    <property name="left" value="true"/>
+   </properties>
+  </object>
+  <object gid="19" x="598" y="1274">
+   <properties>
+    <property name="left" value="true"/>
+   </properties>
+  </object>
+  <object gid="17" x="416" y="1014"/>
+  <object gid="16" x="416" y="884"/>
+  <object gid="1" x="494" y="1014"/>
+  <object gid="4" x="182" y="1040">
+   <properties>
+    <property name="maxIdleTime" value="1"/>
+    <property name="velocity" value="5"/>
+    <property name="wayPoints" value="0,-8"/>
+   </properties>
+  </object>
+  <object gid="19" x="364" y="390"/>
+  <object type="Water" x="312" y="598" width="208" height="104"/>
+  <object gid="21" x="442" y="1508"/>
+  <object gid="5" x="780" y="494"/>
+  <object gid="5" x="858" y="494"/>
+  <object gid="5" x="520" y="364"/>
+  <object gid="5" x="260" y="364"/>
+  <object gid="5" x="312" y="364"/>
+  <object gid="5" x="468" y="364"/>
+  <object gid="5" x="468" y="312"/>
+  <object gid="5" x="208" y="364"/>
+  <object gid="5" x="156" y="364"/>
+  <object gid="5" x="390" y="468"/>
+  <object gid="5" x="390" y="494"/>
+  <object gid="5" x="208" y="468"/>
+  <object gid="20" x="468" y="676">
+   <properties>
+    <property name="delay" value="2"/>
+   </properties>
+  </object>
+  <object gid="20" x="338" y="676"/>
+  <object gid="9" x="520" y="312"/>
+  <object gid="17" x="416" y="806"/>
+  <object gid="16" x="832" y="520"/>
+  <object gid="15" x="260" y="494"/>
+  <object gid="15" x="390" y="910"/>
+  <object gid="15" x="754" y="1508"/>
+  <object gid="15" x="468" y="806"/>
+ </objectgroup>
+</map>

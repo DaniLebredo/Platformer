@@ -1,0 +1,44 @@
+{
+	"name": "Castle",
+	"locked": true,
+	"starsToUnlock": 100,
+	"staticBackground": "BackgroundForest.png",
+	"music": "MusicForest.m4a",
+	"frameAnims": [
+		{ "name": "Hills",	"texture": "HillsForest.png",	"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 256, "height": 160 }, "numFramesTotal": 2, "numFramesPerRow": 2 },
+		{ "name": "Bull",	"texture": "BullForest.png",	"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 64, "height": 64 }, "numFramesTotal": 9, "numFramesPerRow": 3 },
+		{ "name": "Wolf",	"texture": "WolfForest.png",	"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 58, "height": 58 }, "numFramesTotal": 6, "numFramesPerRow": 3 },
+		{ "name": "Monkey",	"texture": "MonkeyForest.png",	"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 50, "height": 50 }, "numFramesTotal": 8, "numFramesPerRow": 4 },
+		{ "name": "Spider",	"texture": "SpiderForest.png",	"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 32, "height": 32 }, "numFramesTotal": 7, "numFramesPerRow": 4 }
+	],
+	"textures": [
+		"TileMapForest.png"
+	],
+	"levels": [
+		{
+			"time": 85,
+			"locked": false
+		},
+		{
+			"time": 180
+		},
+		{
+			"time": 120
+		},
+		{
+			"time": 180
+		},
+		{
+			"time": 70
+		},
+		{
+			"time": 80
+		},
+		{
+			"time": 85
+		},
+		{
+			"time": 60
+		}
+	]
+}

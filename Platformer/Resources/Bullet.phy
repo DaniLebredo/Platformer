@@ -1,0 +1,23 @@
+{
+	"name": "Bullet",
+	"type": "dynamic",
+	"fixedRotation": true,
+	"gravityScale": 0,
+	"bullet": true,
+	"fixtures": [
+		{
+			"name": "MainPart",
+			"shape": {
+				"type": "circle",
+				"radius": 0.15
+			},
+			"filter": {
+				"category": "CATEGORY_FRIENDLY_FIRE",
+				"mask": "MASK_FRIENDLY_FIRE",
+				"group": "GROUP_FRIENDLY_FIRE"
+			},
+			"sensor": false,
+			"userData": { "type": 28 }
+		}
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"frameAnims": [
+	],
+	"textures": [
+		"BackgroundMainMenu.png",
+		"Logo.png"
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"name": "BarrelMovable",
+	"type": "dynamic",
+	"fixedRotation": true,
+	"fixtures": [
+		{
+			"name": "UpperPart",
+			"shape": {
+				"type": "box",
+				"size": { "width": 0.75, "height": 0.95 },
+				"position": { "x": 0, "y": 0.025 }
+			},
+			"density": 0.5,
+			"filter": { "category": "CATEGORY_GROUND", "mask": "MASK_ALL" },
+			"userData": { "type": 2 }
+		},
+		{
+			"name": "LowerPart",
+			"shape": {
+				"type": "circle",
+				"radius": 0.4,
+				"position": { "x": 0, "y": -0.1 }
+			},
+			"density": 0.5,
+			"filter": { "category": "CATEGORY_GROUND", "mask": "MASK_ALL" },
+			"userData": { "type": 2 }
+		}
+	]
+}

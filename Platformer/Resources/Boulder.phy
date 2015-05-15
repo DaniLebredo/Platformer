@@ -1,0 +1,52 @@
+{
+	"name": "Boulder",
+	"type": "dynamic",
+	"fixedRotation": true,
+	"gravityScale": 0.5,
+	"fixtures": [
+		{
+			"name": "MainPart",
+			"shape": {
+				"type": "circle",
+				"radius": 0.95,
+				"position": { "x": 0, "y": 0.45 }
+			},
+			"density": 1,
+			"friction": 0,
+			"filter": {
+				"category": "CATEGORY_HAZARD",
+				"group": "GROUP_HAZARD"
+			},
+			"sensor": false,
+			"userData": { "type": 7, "killsPlayer": true, "killsEnemy": true }
+		},
+		{
+			"name": "LeftSensor",
+			"shape": {
+				"type": "circle",
+				"radius": 0.85,
+				"position": { "x": -0.2, "y": 0.45 }
+			},
+			"filter": {
+				"category": "CATEGORY_HAZARD",
+				"mask": "MASK_GROUND_SENSOR"
+			},
+			"sensor": true,
+			"userData": { "type": 9 }
+		},
+		{
+			"name": "RightSensor",
+			"shape": {
+				"type": "circle",
+				"radius": 0.85,
+				"position": { "x": 0.2, "y": 0.45 }
+			},
+			"filter": {
+				"category": "CATEGORY_HAZARD",
+				"mask": "MASK_GROUND_SENSOR"
+			},
+			"sensor": true,
+			"userData": { "type": 10 }
+		}
+	]
+}

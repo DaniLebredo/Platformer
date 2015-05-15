@@ -1,0 +1,20 @@
+{
+	"name": "Door",
+	"type": "static",
+	"fixtures": [
+		{
+			"name": "MainPart",
+			"shape": {
+				"type": "box",
+				"size": { "width": 1, "height": 2 },
+				"position": { "x": 0, "y": 0.5 }
+			},
+			"density": 1,
+			"filter": {
+				"category": "CATEGORY_GROUND",
+				"mask": "MASK_ALL"
+			},
+			"userData": { "type": 2 }
+		}
+	]
+}

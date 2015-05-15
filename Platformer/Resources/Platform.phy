@@ -1,0 +1,36 @@
+{
+	"name": "Platform",
+	"type": "kinematic",
+	"fixtures": [
+		{
+			"name": "MainPart",
+			"shape": {
+				"type": "box",
+				"size": { "width": 3, "height": 0.1 },
+				"position": { "x": 0, "y": 0.45 }
+			},
+			"density": 1,
+			"friction": 1,
+			"filter": {
+				"category": "CATEGORY_GROUND",
+				 "mask": "MASK_ALL"
+			},
+			"userData": { "type": 2 }
+		},
+		{
+			"name": "BottomPart",
+			"shape": {
+				"type": "box",
+				"size": { "width": 3, "height": 0.5 },
+				"position": { "x": 0, "y": 0.15 }
+			},
+			"density": 1,
+			"friction": 1,
+			"filter": {
+				"category": "CATEGORY_GROUND",
+				"mask": "MASK_ALL"
+			},
+			"userData": { "type": 22 }
+		}
+	]
+}

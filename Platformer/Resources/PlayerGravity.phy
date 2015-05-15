@@ -1,0 +1,45 @@
+{
+	"name": "PlayerGravity",
+	"type": "dynamic",
+	"fixedRotation": true,
+	"fixtures": [
+		{
+			"name": "Top",
+			"shape": { "type": "circle", "radius": 0.5, "position": { "x": 0, "y": 0.5 } },
+			"density": 0.15,
+			"friction": 0,
+			"filter": { "category": "CATEGORY_PLAYER", "mask": "MASK_PLAYER" },
+			"userData": { "type": 203 }
+		},
+		{
+			"name": "Middle",
+			"shape": { "type": "circle", "radius": 0.5 },
+			"density": 0.15,
+			"friction": 0,
+			"filter": { "category": "CATEGORY_PLAYER", "mask": "MASK_PLAYER" },
+			"userData": { "type": 202 }
+		},
+		{
+			"name": "Bottom",
+			"shape": { "type": "circle", "radius": 0.5, "position": { "x": 0, "y": -0.5 } },
+			"density": 0.15,
+			"friction": 0,
+			"filter": { "category": "CATEGORY_PLAYER", "mask": "MASK_PLAYER" },
+			"userData": { "type": 201 }
+		},
+		{
+			"name": "HeadPart",
+			"shape": { "type": "box", "size": { "width": 0.8, "height": 0.2 }, "position": { "x": 0, "y": 1 } },
+			"filter": { "category": "CATEGORY_PLAYER", "mask": "MASK_PLAYER" },
+			"sensor": true,
+			"userData": { "type": 1 }
+		},
+		{
+			"name": "FootPart",
+			"shape": { "type": "box", "size": { "width": 0.8, "height": 0.2 }, "position": { "x": 0, "y": -1 } },
+			"filter": { "category": "CATEGORY_PLAYER", "mask": "MASK_PLAYER" },
+			"sensor": true,
+			"userData": { "type": 1 }
+		}
+	]
+}

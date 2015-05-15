@@ -1,0 +1,44 @@
+{
+	"name": "Deathlands",
+	"locked": true,
+	"starsToUnlock": 44,
+	"staticBackground": "BackgroundDesert.png",
+	"music": "MusicDesert.m4a",
+	"frameAnims": [
+		{ "name": "Hills",		"texture": "HillsDesert.png",	"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 256, "height": 160 }, "numFramesTotal": 2, "numFramesPerRow": 2 },
+		{ "name": "Bull",		"texture": "BullDesert.png",	"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 64, "height": 64 }, "numFramesTotal": 9, "numFramesPerRow": 3 },
+		{ "name": "Wolf",		"texture": "WolfDesert.png",	"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 58, "height": 58 }, "numFramesTotal": 6, "numFramesPerRow": 3 },
+		{ "name": "Monkey",		"texture": "MonkeyDesert.png",	"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 50, "height": 50 }, "numFramesTotal": 8, "numFramesPerRow": 4 },
+		{ "name": "Spider",		"texture": "SpiderDesert.png",	"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 32, "height": 32 }, "numFramesTotal": 7, "numFramesPerRow": 4 }
+	],
+	"textures": [
+		"TileMapDesert.png"
+	],
+	"levels": [
+		{
+			"time": 60,
+			"locked": false
+		},
+		{
+			"time": 80
+		},
+		{
+			"time": 55
+		},
+		{
+			"time": 65
+		},
+		{
+			"time": 50
+		},
+		{
+			"time": 40
+		},
+		{
+			"time": 60
+		},
+		{
+			"time": 60
+		}
+	]
+}

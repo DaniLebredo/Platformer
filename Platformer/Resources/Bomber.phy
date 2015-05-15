@@ -1,0 +1,21 @@
+{
+	"name": "Bomber",
+	"type": "dynamic",
+	"fixedRotation": true,
+	"gravityScale": 0,
+	"fixtures": [
+		{
+			"name": "MainPart",
+			"shape": {
+				"type": "circle",
+				"radius": 0.5
+			},
+			"filter": {
+				"category": "CATEGORY_ENEMY",
+				"mask": "MASK_FLYING_ENEMY",
+				"group": "GROUP_ENEMY"
+			},
+			"userData": { "type": 28 }
+		}
+	]
+}

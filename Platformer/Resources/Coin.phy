@@ -1,0 +1,20 @@
+{
+	"name": "Coin",
+	"type": "static",
+	"fixtures": [
+		{
+			"name": "MainPart",
+			"shape": {
+				"type": "circle",
+				"radius": 0.3
+			},
+			"filter": {
+				"category": "CATEGORY_POWERUP",
+				"mask": "MASK_POWERUP",
+				"group": "GROUP_POWERUP"
+			},
+			"sensor": true,
+			"userData": { "type": 18 }
+		}
+	]
+}

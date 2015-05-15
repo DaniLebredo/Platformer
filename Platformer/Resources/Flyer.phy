@@ -1,0 +1,53 @@
+{
+	"name": "Flyer",
+	"type": "dynamic",
+	"fixedRotation": true,
+	"gravityScale": 0,
+	"fixtures": [
+		{
+			"name": "Head",
+			"shape": {
+				"type": "polygon",
+				"vertices": [{ "x": 0.5, "y": 0.2 }, { "x": 0.45, "y": 0.45 }, { "x": -0.45, "y": 0.45 }, { "x": -0.5, "y": 0.2 }]
+			},
+			"density": 0.4,
+			"friction": 0,
+			"filter": {
+				"category": "CATEGORY_ENEMY",
+				"mask": "MASK_FLYING_ENEMY",
+				"group": "GROUP_ENEMY"
+			},
+			"userData": { "type": 8, "killsPlayer": true }
+		},
+		{
+			"name": "BodyPart1",
+			"shape": {
+				"type": "circle",
+				"radius": 0.3,
+				"position": { "x": -0.15, "y": 0 }
+			},
+			"filter": {
+				"category": "CATEGORY_ENEMY",
+				"mask": "MASK_FLYING_ENEMY",
+				"group": "GROUP_ENEMY"
+			},
+			"sensor": false,
+			"userData": { "type": 7, "killsPlayer": true }
+		},
+		{
+			"name": "BodyPart2",
+			"shape": {
+				"type": "circle",
+				"radius": 0.3,
+				"position": { "x": 0.15, "y": 0 }
+			},
+			"filter": {
+				"category": "CATEGORY_ENEMY",
+				"mask": "MASK_FLYING_ENEMY",
+				"group": "GROUP_ENEMY"
+			},
+			"sensor": false,
+			"userData": { "type": 7, "killsPlayer": true }
+		}
+	]
+}

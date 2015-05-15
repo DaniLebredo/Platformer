@@ -1,0 +1,37 @@
+{
+	"frameAnims": [
+		{ "name": "Player",			"texture": "LanceNew.png",		"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 58, "height": 58 }, "numFramesTotal": 11, "numFramesPerRow": 4 },
+		{ "name": "Hedgehog",		"texture": "Hedgehog.png",		"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 44, "height": 44 }, "numFramesTotal": 7, "numFramesPerRow": 4 },
+		{ "name": "Explosion",		"texture": "Explosion.png",		"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 60, "height": 60 }, "numFramesTotal": 9, "numFramesPerRow": 3 },
+		{ "name": "Cannon",			"texture": "Cannon.png",		"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 30, "height": 26 }, "numFramesTotal": 4, "numFramesPerRow": 4 },
+		{ "name": "Bullet",			"texture": "Bullet.png",		"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 34, "height": 34 }, "numFramesTotal": 8, "numFramesPerRow": 4 },
+		{ "name": "VampireBullet",	"texture": "VampireBullet.png",	"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 34, "height": 34 }, "numFramesTotal": 8, "numFramesPerRow": 4 },
+		{ "name": "Coin",			"texture": "Coin2.png",			"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 26, "height": 26 }, "numFramesTotal": 8, "numFramesPerRow": 4 },
+		{ "name": "Flash",			"texture": "Flash.png",			"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 58, "height": 58 }, "numFramesTotal": 3, "numFramesPerRow": 3 },
+		{ "name": "SmokeJump",		"texture": "SmokeJump.png",		"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 38, "height": 20 }, "numFramesTotal": 4, "numFramesPerRow": 4 },
+		{ "name": "SmokeRun",		"texture": "SmokeRun.png",		"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 34, "height": 18 }, "numFramesTotal": 4, "numFramesPerRow": 4 },
+		{ "name": "Flyer",			"texture": "Flyer.png",			"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 58, "height": 58 }, "numFramesTotal": 5, "numFramesPerRow": 5 },
+		{ "name": "Fish",			"texture": "Fish.png",			"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 44, "height": 44 }, "numFramesTotal": 8, "numFramesPerRow": 4 },
+		{ "name": "Rabbit",			"texture": "Rabbit.png",		"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 58, "height": 58 }, "numFramesTotal": 9, "numFramesPerRow": 3 },
+		{ "name": "BoulderSmoke",	"texture": "BoulderSmoke.png",	"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 30, "height": 54 }, "numFramesTotal": 6, "numFramesPerRow": 6 },
+		{ "name": "Ghost",			"texture": "Ghost.png",			"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 60, "height": 60 }, "numFramesTotal": 8, "numFramesPerRow": 4 },
+		{ "name": "Lamp",			"texture": "Lamp.png",			"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 60, "height": 86 }, "numFramesTotal": 2, "numFramesPerRow": 2 },
+		{ "name": "CrackedTile",	"texture": "CrackedTile.png",	"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 40, "height": 40 }, "numFramesTotal": 7, "numFramesPerRow": 7 },
+		{ "name": "Key",			"texture": "Key.png",			"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 26, "height": 26 }, "numFramesTotal": 1, "numFramesPerRow": 1 },
+		{ "name": "Door",			"texture": "Door.png",			"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 26, "height": 52 }, "numFramesTotal": 6, "numFramesPerRow": 6 },
+		{ "name": "Barrel",			"texture": "Barrel.png",		"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 28, "height": 28 }, "numFramesTotal": 2, "numFramesPerRow": 2 },
+		{ "name": "Switch",			"texture": "Switch.png",		"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 26, "height": 26 }, "numFramesTotal": 2, "numFramesPerRow": 2 },
+		{ "name": "Stars",			"texture": "Stars.png",			"offset": { "x": 0, "y": 0 }, "frameSize": { "width": 36, "height": 36 }, "numFramesTotal": 4, "numFramesPerRow": 4 }
+	],
+	"textures": [
+		"Mace.png",
+		"Platform.png",
+		"Heart.png",
+		"Clock.png",
+		"Coin.png",
+		"ConcreteSlab.png",
+		"Boulder.png",
+		"Bomb.png",
+		"stars-grayscale.png"
+	]
+}

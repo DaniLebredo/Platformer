@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="130" height="35" tilewidth="26" tileheight="26">
+ <tileset firstgid="1" name="TileMapForest" tilewidth="26" tileheight="26">
+  <image source="TileMapVolcano.png" width="512" height="286"/>
+ </tileset>
+ <layer name="Back" width="130" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3Zt0oEYRiF4bko4xUYr8BYWhlLbdZUKxhrBXMoDGAOICgY78jXboUt/NeZORPOAy9ss7Nf8Q/MfhNFZma/HdGxegiTe6BH9RCWGt/39sP3ffn43q+tjdqpgzqpi7qlEyXL935tPdRLfdRPAzQoncgUhmmERmmMxmlCOpEpVGiaZmiW5mheOZBJLNEyrdAqrdG6dCJT2KJt2qFd2qN96USmcEGXdEXXdEO3f/jeSZJDWepe6Y3e6YM+6Us6Uf3KcDYP6FA9hMnd0b16CCuMBmqkJmqmFmqVTmQKZdsjpy0v7y+8R05WXt5feI8cbiiwKc2YQSqR98ihJgPLwznI0h55gRZFvx2iiOcgS3vkDdoU/XaIIp6DevfISTij8wSuG/cze5zn4DTGuf4jS3vkZ3qJ6VpPVZ/z8sxuZmZmlid52Y9bsqqftbPyH8fMzMxM7RunVrriGEcAAA==
+  </data>
+ </layer>
+ <layer name="Front" width="130" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2aPU4DMRBGfRugWIka6KiBjprQ5SJB3AHuii3RxOt1JuN/73vSpzTOarJ5M/ImNgYAAADgnEcvT23LgUa8enlrWw5U4MGs+x8P9seLWX/veDA3od7/MniwNyS9jwfzgwfgmM2D+9YFDIrWg1+buwb1xjjaLDbviddZ/rMnRp4Hod5/Fq6LfdeXPLj2vVszKja7cs016XV68EDTf9Le99e556Mfm9uC8efkEomPZI2Ea6/TgwdaQr1/aZ37vD3U3hu19wdSx0Prbkx6r37bfCrqnp2R5wHkAw/AgQfgSPEgtg/Ote+Fc0rd71LzYNl4BT2xZ03p2i3wYHxy3Fv2B+ODB2E0v+OOTEsPTmZ9fkWb3GdeNXun0HmcVmdyY7WUiuTsUen0MFti/VC7Pm1vjh48kNcyc3rw4MPmsJHa/0fgATjwABx4UJeUfXnJZwg8qEvK/S5ZMx7UBQ/6Ch7kq6t0/gCtbWeVGEcAAA==
+  </data>
+ </layer>
+ <layer name="PreFront" width="130" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3OwQkAMAzEsOy/RJtNc0MUQkEC/10FAAAAAAAAAH876aZe/gAAAAAAAAAAAADeGAs+J4QYRwAA
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="130" height="35">
+  <object gid="8" x="182" y="650"/>
+  <object gid="17" x="312" y="650"/>
+  <object gid="13" x="468" y="650"/>
+  <object gid="17" x="416" y="650"/>
+  <object gid="2" x="338" y="520"/>
+  <object gid="5" x="286" y="494"/>
+  <object gid="5" x="338" y="494"/>
+  <object gid="5" x="390" y="494"/>
+  <object gid="4" x="702" y="676">
+   <properties>
+    <property name="wayPoints" value="0,-2"/>
+   </properties>
+  </object>
+  <object gid="4" x="858" y="676">
+   <properties>
+    <property name="wayPoints" value="0,2"/>
+   </properties>
+  </object>
+  <object gid="4" x="1014" y="676">
+   <properties>
+    <property name="wayPoints" value="0,-2"/>
+   </properties>
+  </object>
+  <object gid="5" x="754" y="572"/>
+  <object gid="5" x="858" y="572"/>
+  <object gid="5" x="962" y="572"/>
+  <object gid="4" x="3042" y="598">
+   <properties>
+    <property name="wayPoints" value="-3,0"/>
+   </properties>
+  </object>
+  <object gid="4" x="3042" y="390">
+   <properties>
+    <property name="wayPoints" value="-3,0"/>
+   </properties>
+  </object>
+  <object gid="4" x="2964" y="494">
+   <properties>
+    <property name="wayPoints" value="3,0"/>
+   </properties>
+  </object>
+  <object gid="6" x="1898" y="364"/>
+  <object gid="6" x="1508" y="364"/>
+  <object gid="5" x="1820" y="364"/>
+  <object gid="5" x="1612" y="364"/>
+  <object gid="5" x="1430" y="364"/>
+  <object gid="10" x="2704" y="572">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="2730" y="572">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="2730" y="598">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="2704" y="598">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="2730" y="650">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="2704" y="650">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="2730" y="624">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="2704" y="624">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="1" x="2860" y="650"/>
+  <object gid="5" x="2704" y="598"/>
+  <object gid="16" x="2704" y="624"/>
+  <object gid="10" x="2652" y="650">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="2626" y="624">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="2652" y="598">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="2652" y="624">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="2652" y="572">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="2626" y="650">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="2626" y="572">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="2626" y="598">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="5" x="2652" y="598"/>
+  <object gid="5" x="2652" y="624"/>
+  <object gid="10" x="1456" y="780">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="1456" y="806">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="1430" y="806">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="1482" y="806">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="1508" y="806">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="1508" y="780">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="1482" y="780">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="1534" y="806">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="1560" y="806">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="1560" y="780">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="1534" y="780">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="1586" y="806">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="1612" y="806">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="1612" y="780">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="1586" y="780">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="1638" y="780">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="1638" y="806">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="16" x="1404" y="806"/>
+  <object gid="17" x="364" y="650"/>
+  <object gid="9" x="1872" y="780"/>
+  <object gid="9" x="2002" y="754"/>
+  <object gid="9" x="2132" y="728"/>
+  <object gid="9" x="2262" y="702"/>
+  <object gid="1" x="2470" y="650"/>
+  <object gid="2" x="728" y="416"/>
+  <object gid="5" x="494" y="364"/>
+  <object gid="5" x="624" y="312"/>
+  <object gid="5" x="754" y="364"/>
+  <object gid="5" x="858" y="364"/>
+  <object gid="5" x="2132" y="338"/>
+  <object gid="5" x="2392" y="312"/>
+  <object gid="5" x="2626" y="312"/>
+  <object gid="5" x="2860" y="312"/>
+  <object gid="5" x="2600" y="494"/>
+  <object gid="5" x="2652" y="494"/>
+  <object gid="5" x="2704" y="494"/>
+  <object gid="5" x="2756" y="494"/>
+  <object gid="5" x="2262" y="650"/>
+  <object gid="5" x="2132" y="676"/>
+  <object gid="5" x="2002" y="702"/>
+  <object gid="5" x="1872" y="728"/>
+  <object gid="5" x="1534" y="780"/>
+  <object gid="5" x="1534" y="806"/>
+  <object gid="5" x="1560" y="806"/>
+  <object gid="5" x="1560" y="780"/>
+  <object gid="2" x="1534" y="650"/>
+  <object gid="16" x="130" y="312"/>
+  <object gid="5" x="234" y="494"/>
+  <object gid="5" x="182" y="494"/>
+  <object gid="15" x="1534" y="312"/>
+  <object gid="2" x="1352" y="338"/>
+  <object gid="5" x="1404" y="650"/>
+  <object gid="5" x="1404" y="702"/>
+  <object gid="5" x="1404" y="728"/>
+  <object gid="5" x="1404" y="676"/>
+  <object gid="1" x="598" y="364"/>
+  <object gid="15" x="468" y="416"/>
+  <object gid="19" x="130" y="650"/>
+  <object gid="23" x="1690" y="364"/>
+  <object gid="9" x="2626" y="390"/>
+ </objectgroup>
+</map>

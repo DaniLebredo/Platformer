@@ -1,0 +1,69 @@
+{
+	"name": "Spider",
+	"type": "dynamic",
+	"fixedRotation": true,
+	"fixtures": [
+		{
+			"name": "Head",
+			"shape": {
+				"type": "circle",
+				"radius": 0.4,
+				"position": { "x": 0, "y": 0.05 }
+			},
+			"density": 20,
+			"friction": 0,
+			"filter": {
+				"category": "CATEGORY_ENEMY",
+				"mask": "MASK_ENEMY",
+				"group": "GROUP_ENEMY"
+			},
+			"sensor": false,
+			"userData": { "type": 8, "killsPlayer": true }
+		},
+		{
+			"name": "MainPart",
+			"shape": {
+				"type": "circle",
+				"radius": 0.35,
+				"position": { "x": 0, "y": -0.15 }
+			},
+			"density": 20,
+			"friction": 0,
+			"filter": {
+				"category": "CATEGORY_ENEMY",
+				"mask": "MASK_ENEMY",
+				"group": "GROUP_ENEMY"
+			},
+			"sensor": false,
+			"userData": { "type": 7, "killsPlayer": true }
+		},
+		{
+			"name": "LeftSensor",
+			"shape": {
+				"type": "box",
+				"size": { "width": 0.1, "height": 0.6 },
+				"position": { "x": -0.4, "y": -0.1 }
+			},
+			"filter": {
+				"category": "CATEGORY_ENEMY",
+				"mask": "MASK_GROUND_SENSOR"
+			},
+			"sensor": true,
+			"userData": { "type": 9 }
+		},
+		{
+			"name": "RightSensor",
+			"shape": {
+				"type": "box",
+				"size": { "width": 0.1, "height": 0.6 },
+				"position": { "x": 0.4, "y": -0.1 }
+			},
+			"filter": {
+				"category": "CATEGORY_ENEMY",
+				"mask": "MASK_GROUND_SENSOR"
+			},
+			"sensor": true,
+			"userData": { "type": 10 }
+		}
+	]
+}

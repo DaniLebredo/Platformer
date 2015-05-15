@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="130" height="30" tilewidth="26" tileheight="26">
+ <tileset firstgid="1" name="TileMapForest" tilewidth="26" tileheight="26">
+  <image source="TileMapForest.png" width="512" height="286"/>
+ </tileset>
+ <layer name="Back" width="130" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3Z10rEQBSH8byd9QmsT2C9UxTWdq2wtmsFewFRwV5AULC+kd9CwFwoHodJsif+f/BBbiY7kLOjS5JEREREREREROTLAR2WvQkpzB7tp9fZZ39H96XsSGKzfKdv6Da91rOvJj3X6mihVmqjduqgzlJ3JGXoom7qoV7qo37DujEaNybNb4AGaYiGaYRGDes8zkHss69K52aNpmiaZmiW5gzrPM5B6Nn3H9RpkZZomVZo1bDO4xyEnn0xTRb8eVYbtElbtE07tGtY53EOaknY2Wdl+R09EfHzYmnM5hmd0wVd0hVdG9Z6nIPQs8/K6+/oxmw+0wu90hu904dhrcc5CD37pFpCzz6pltCz7ycPMTb1jXlayOneDXrH58Mared4fy//x8Sc1+z7Ti9O6LTsTTSB3+b16A/3yr7v9OKRntLr40j3zOtvmIiIiIhIUT4BL/2yF/A8AAA=
+  </data>
+ </layer>
+ <layer name="Front" width="130" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2ZWw7CIBBFuyETv33EFWgXo25Bty0kklgytEArDO05yf0gmRhnuIwwdh0AAAAAAAAAAADAkIPRURCsi9A+O72NboKgPcb2OrTPU4L2uBpdjB4TOnfxPrAeOpVMAmZjfdBHxqX0hJjPBD3gA7DgA7DcjZ4RcfgALPhgiH1ntXgX3n+Vy1Z8MDUz+X1Ta8sx9rvPUeosQVuNYknx+6vT9UZOPasllOODnaDS5NSytuddH8id+2nzQUrOkk5enL+WYpaYodbuCxr7wL99MJZz78X5axfj7kpL1690X9DcB2r6wJ1LVxt/LcUsmXPpvqC5D0h7UvO+qiV3yRuh37jY2BZqgYaS+mPoPKfEorYk7a2d5Ur/7UrzXXywDs29L+GDdWiLPvgA2VU22/A8AAA=
+  </data>
+ </layer>
+ <layer name="PreFront" width="130" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3SwQnAIBQDUOcqriCOWN1Uvfem5Rf6HuQYyCEpAQAAAAAAAAAAAAAA8AX3THtID9rD+/Jm/zqygmh1s1+OrCCaH7D4AcsffzAA+HObwvA8AAA=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="130" height="30">
+  <object gid="8" x="2990" y="494"/>
+  <object gid="5" x="806" y="598"/>
+  <object gid="5" x="832" y="598"/>
+  <object gid="5" x="806" y="624"/>
+  <object gid="5" x="832" y="624"/>
+  <object gid="5" x="910" y="598"/>
+  <object gid="5" x="936" y="598"/>
+  <object gid="5" x="910" y="624"/>
+  <object gid="5" x="936" y="624"/>
+  <object type="Water" x="1820" y="676" width="390" height="104"/>
+  <object gid="13" x="130" y="650"/>
+  <object gid="5" x="364" y="520"/>
+  <object gid="5" x="390" y="494"/>
+  <object gid="5" x="416" y="520"/>
+  <object gid="5" x="442" y="494"/>
+  <object gid="5" x="468" y="520"/>
+  <object gid="21" x="754" y="572">
+   <properties>
+    <property name="left" value="true"/>
+   </properties>
+  </object>
+  <object gid="5" x="1950" y="598"/>
+  <object gid="5" x="1976" y="572"/>
+  <object gid="5" x="2002" y="598"/>
+  <object gid="5" x="2028" y="572"/>
+  <object gid="5" x="2054" y="598"/>
+  <object gid="5" x="2678" y="390"/>
+  <object gid="5" x="2704" y="390"/>
+  <object gid="15" x="1404" y="494"/>
+  <object gid="5" x="1560" y="468"/>
+  <object gid="5" x="1586" y="494"/>
+  <object gid="5" x="1612" y="520"/>
+  <object gid="5" x="1638" y="546"/>
+  <object gid="5" x="1534" y="442"/>
+  <object gid="5" x="2314" y="572"/>
+  <object gid="5" x="2340" y="546"/>
+  <object gid="5" x="2366" y="520"/>
+  <object gid="5" x="2392" y="494"/>
+  <object gid="5" x="2418" y="468"/>
+  <object gid="10" x="2834" y="468">
+   <properties>
+    <property name="hitCount" value="2"/>
+   </properties>
+  </object>
+  <object gid="10" x="2834" y="494">
+   <properties>
+    <property name="hitCount" value="1"/>
+   </properties>
+  </object>
+  <object gid="18" x="2314" y="520"/>
+  <object gid="12" x="260" y="572">
+   <properties>
+    <property name="locText" value="JumpHigher"/>
+   </properties>
+  </object>
+  <object gid="12" x="2756" y="416">
+   <properties>
+    <property name="locText" value="WhatNow"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

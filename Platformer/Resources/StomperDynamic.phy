@@ -1,0 +1,18 @@
+{
+	"name": "StomperDynamic",
+	"type": "dynamic",
+	"gravityScale": 0,
+	"fixtures": [
+		{
+			"name": "MainPart",
+			"shape": { "type": "box", "size": { "width": 0.5, "height": 3 } },
+			"density": 1,
+			"filter": {
+				"category": "CATEGORY_HAZARD",
+				"group": "GROUP_HAZARD"
+			},
+			"sensor": true,
+			"userData": { "type": 28, "killsPlayer": true, "killsEnemy": true }
+		}
+	]
+}

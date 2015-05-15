@@ -1,0 +1,21 @@
+{
+	"name": "Bomb",
+	"type": "dynamic",
+	"fixtures": [
+		{
+			"name": "MainPart",
+			"shape": {
+				"type": "circle",
+				"radius": 0.15
+			},
+			"friction": 0.025,
+			"filter": {
+				"category": "CATEGORY_HOSTILE_FIRE",
+				"mask": "MASK_HOSTILE_FIRE",
+				"group": "GROUP_HOSTILE_FIRE"
+			},
+			"sensor": false,
+			"userData": { "type": 28 }
+		}
+	]
+}

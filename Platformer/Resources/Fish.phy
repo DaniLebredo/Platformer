@@ -1,0 +1,38 @@
+{
+	"name": "Fish",
+	"type": "dynamic",
+	"fixedRotation": true,
+	"gravityScale": 0.5,
+	"fixtures": [
+		{
+			"name": "Part1",
+			"shape": {
+				"type": "circle",
+				"radius": 0.4,
+				"position": { "x": 0, "y": 0.3 }
+			},
+			"filter": {
+				"category": "CATEGORY_ENEMY",
+				"mask": "MASK_ENEMY",
+				"group": "GROUP_ENEMY"
+			},
+			"sensor": false,
+			"userData": { "type": 7, "killsPlayer": true }
+		},
+		{
+			"name": "Part2",
+			"shape": {
+				"type": "circle",
+				"radius": 0.4,
+				"position": { "x": 0, "y": -0.1 }
+			},
+			"filter": {
+				"category": "CATEGORY_ENEMY",
+				"mask": "MASK_ENEMY",
+				"group": "GROUP_ENEMY"
+			},
+			"sensor": false,
+			"userData": { "type": 7, "killsPlayer": true }
+		}
+	]
+}
